@@ -19,8 +19,4 @@ public class Dog extends Animal {
         System.out.println("Dog " + name + ": Arf Arf");
     }
 
-    @Override
-    public String toString() {
-        return "Dog " + name + " with age " + age + " and color " + color;
-    }
 }
